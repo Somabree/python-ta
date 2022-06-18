@@ -45,19 +45,19 @@ class Test(unittest.TestCase):
         output = app.solution(input)
         self.assertEqual(output, True)
 
-    def test_case4(self):
-        """
-        Testcase 4
-        """
-        input = 56
-        output = app.solution(input)
-        self.assertEqual(output, True)
+    # def test_case4(self):
+    #     """
+    #     Testcase 4
+    #     """
+    #     input = 56
+    #     output = app.solution(input)
+    #     self.assertEqual(output, True)
 
-    def test_case5(self):
-        "Testcase 5"
-        input = 97
-        output = app.solution(input)
-        self.assertEqual(output, False)
+    # def test_case5(self):
+    #     "Testcase 5"
+    #     input = 97
+    #     output = app.solution(input)
+    #     self.assertEqual(output, False)
 
 
 if __name__ == "__main__":

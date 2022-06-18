@@ -4,6 +4,12 @@ import os
 
 def prime(s):
     # your code goes here
+    if s > 1:
+        for i in range(2, int(s/2) +1):
+            if (s %  i == 0):
+                return False
+        return True
+    return False
 
 def solution(s):
     return prime(s)
